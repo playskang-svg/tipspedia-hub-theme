@@ -20,6 +20,14 @@
   };
 
   ready(function(){
+    // Single-post page detection also happens earlier via an inline script in the
+    // header gadget (see layout); this is a safety net in case that inline script
+    // is ever removed.
+    if (!document.body.classList.contains("is-single-post") &&
+        /\/\d{4}\/\d{2}\/[^/]+\.html$/.test(window.location.pathname)) {
+      document.body.classList.add("is-single-post");
+    }
+
     // Color-code category chips/labels per post based on label text.
     // ::before can't read per-element custom props reliably across engines, so generate
     // one scoped rule per post via a data attribute instead.
