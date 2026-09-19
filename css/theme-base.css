@@ -1,0 +1,1912 @@
+body .gptwriter-subtitle,
+div h3 {
+    font-size: initial !important; /* 또는 원하는 값 */
+    font-weight: normal !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+}
+
+.firstcharacter{
+    float:left;
+    color:#27ae60;
+    font-size:75px;
+    line-height:60px;
+    padding-right:8px;
+}
+ .post-body p{
+    margin-bottom:25px
+}
+ .post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{
+    color:#000;
+    line-height:1.3em;
+    margin:0 0 20px
+}
+ .post-body img{
+    height:auto!important
+}
+#ReportAbuse1, 
+#Wikipedia1, 
+#ContactForm2, 
+#TextList1, 
+#Translate1, 
+#Subscribe2, 
+#Subscribe1, 
+#BloggerButton1, 
+#BlogList1, 
+#Stats1, 
+#PopularPosts1, 
+#Text2, 
+#LinkList1, 
+#PageList1, 
+#Label1, 
+#Followers1, 
+#Header2, 
+#BlogArchive1, 
+#BlogSearch1, 
+#Attribution1,
+#FeaturedPost1, 
+#Profile1,
+#Label1,
+#HTML8,
+#HTML5,
+#HTML7,
+#HTML9,
+#HTML4,
+#HTML6,
+#HTML1,
+#HTML2 { 
+  display: none !important; 
+} 
+
+#본문하단광고 .widget-title,
+#오른쪽박스 .widget-title,
+#오른쪽\ 광고 .widget-title,
+#왼쪽\ 광고 .widget-title,
+#하단멀티플렉스광고 .widget-title,
+#팝업창 .widget-title {
+    display: none !important;
+}
+
+ blockquote{
+    position:relative;
+    background-color:rgba(155,155,155,0.05);
+    color:#000000;
+    font-style:normal;
+    padding:20px 25px;
+    margin:0;
+    border-radius:3px
+}
+ blockquote:before{
+    position:absolute;
+    left:10px;
+    top:10px;
+    content:&#39;\f10e&#39;;
+    font-family:&#39;Font Awesome 5 Free&#39;;
+    font-size:33px;
+    font-style:normal;
+    font-weight:900;
+    color:#000;
+    line-height:1;
+    opacity:.05;
+    margin:0
+}
+ .post-body .responsive-video-wrap{
+    position:relative;
+    width:100%;
+    padding:0;
+    padding-top:56%
+}
+ .post-body .responsive-video-wrap iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+}
+ .post-body ul{
+    padding:0 0 0 15px;
+    margin:10px 0
+}
+ .post-body li{
+    margin:5px 0;
+    padding:0
+}
+ .post-body ul li,.post-body ol ul li{
+    list-style:none
+}
+ .post-body ul li:before{
+    display:inline-block;
+    content:&#39;\2022&#39;;
+    margin:0 5px 0 0
+}
+ .post-body ol{
+    counter-reset:ify;
+    padding:0 0 0 15px;
+    margin:10px 0
+}
+ .post-body ol &gt; li{
+    counter-increment:ify;
+    list-style:none
+}
+ .post-body ol &gt; li:before{
+    display:inline-block;
+    content:counters(ify,&#39;.&#39;)&#39;.&#39;;
+    margin:0 5px 0 0
+}
+.post-body ul li p {
+  display: inline; /* 또는 inline-block */
+  margin: 0;
+  padding: 0;
+}
+ .post-body u{
+    text-decoration:underline
+}
+ .post-body strike{
+    text-decoration:line-through
+}
+ .post-body sup{
+    vertical-align:super
+}
+ .post-body a{
+  
+}
+ .post-body a:hover{
+}
+ .post-body a.button{
+    display:inline-block;
+    height:34px;
+    background-color:#2c3e50;
+    font-size:14px;
+    color:#ffffff;
+    font-weight:400;
+    line-height:34px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    padding:0 20px;
+    margin:0 6px 8px 0
+}
+ .post-body a.colored-button{
+    color:#fff
+}
+ .post-body a.button:hover{
+    background-color:#f47500;
+    color:#fff
+}
+ .post-body a.colored-button:hover{
+    background-color:#f47500!important;
+    color:#fff!important
+}
+ .button:before{
+    float:left;
+    font-family:&#39;Font Awesome 5 Free&#39;;
+    font-weight:900;
+    display:inline-block;
+    margin:0 8px 0 0
+}
+ .button.preview:before{
+    content:&#39;\f06e&#39;
+}
+ .button.download:before{
+    content:&#39;\f019&#39;
+}
+ .button.link:before{
+    content:&#39;\f0c1&#39;
+}
+ .button.cart:before{
+    content:&#39;\f07a&#39;
+}
+ .button.info:before{
+    content:&#39;\f06a&#39;
+}
+ .button.share:before{
+    content:&#39;\f1e0&#39;
+}
+ .button.contact:before{
+    content:&#39;\f0e0&#39;;
+    font-weight:400
+}
+ .alert-message{
+    position:relative;
+    display:block;
+    padding:15px;
+    border:1px solid rgba(155,155,155,0.1);
+    border-radius:3px
+}
+ .alert-message.alert-success{
+    background-color:rgba(34,245,121,0.03);
+    border:1px solid rgba(34,245,121,0.5)
+}
+ .alert-message.alert-info{
+    background-color:rgba(55,153,220,0.03);
+    border:1px solid rgba(55,153,220,0.5)
+}
+ .alert-message.alert-warning{
+    background-color:rgba(185,139,61,0.03);
+    border:1px solid rgba(185,139,61,0.5)
+}
+ .alert-message.alert-error{
+    background-color:rgba(231,76,60,0.03);
+    border:1px solid rgba(231,76,60,0.5)
+}
+ .alert-message:before{
+    font-family:&#39;Font Awesome 5 Free&#39;;
+    font-size:16px;
+    font-weight:900;
+    display:inline-block;
+    margin:0 5px 0 0
+}
+ .alert-message.alert-success:before{
+    content:&#39;\f058&#39;;
+    color:rgba(34,245,121,1)
+}
+ .alert-message.alert-info:before{
+    content:&#39;\f05a&#39;;
+    color:rgba(55,153,220,1)
+}
+ .alert-message.alert-warning:before{
+    content:&#39;\f06a&#39;;
+    color:rgba(185,139,61,1)
+}
+ .alert-message.alert-error:before{
+    content:&#39;\f057&#39;;
+    color:rgba(231,76,60,1)
+}
+ .post-body table{
+    width:100%;
+    overflow-x:auto;
+    text-align:left;
+    margin:0;
+    border-collapse:collapse;
+    border:1px solid #161619
+}
+ 
+ .post-body table td,.post-body table th{
+    padding:7px 15px;
+    border:1px solid #161619
+}
+ .post-body table thead th{
+    color:#000;
+    font-weight:700;
+    text-align:left;
+    vertical-align:bottom
+}
+ table.tr-caption-container,table.tr-caption-container td,table.tr-caption-container th{
+    line-height:1;
+    padding:0;
+    border:0
+}
+ table.tr-caption-container td.tr-caption{
+    font-size:13px;
+    color:#666666;
+    padding:6px 0 0
+}
+ .tocify-wrap{
+    display:flex;
+    width:100%;
+    clear:both;
+    margin:0
+}
+ .tocify-inner{
+    position:relative;
+    max-width:100%;
+    background-color:rgba(155,155,155,0.05);
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    font-size:14px;
+    color:#000000;
+    line-height:1.6em;
+    border:1px solid rgba(155,155,155,0.1);
+    border-radius:3px
+}
+ a.tocify-title{
+    position:relative;
+    height:38px;
+    font-size:16px;
+    color:#000000;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 15px;
+    margin:0
+}
+ .tocify-title-text{
+    display:flex
+}
+ .tocify-title-text:before{
+    content:&#39;\f0cb&#39;;
+    font-family:&#39;Font Awesome 5 Free&#39;;
+    font-size:14px;
+    font-weight:900;
+    margin:0 6px 0 0
+}
+ .tocify-title:after{
+    content:&#39;\f078&#39;;
+    font-family:&#39;Font Awesome 5 Free&#39;;
+    font-size:12px;
+    font-weight:900;
+    margin:0 0 0 25px
+}
+ .tocify-title.is-expanded:after{
+    content:&#39;\f077&#39;
+}
+ a.tocify-title:hover{
+    text-decoration:none
+}
+ #tocify{
+    display:none;
+    padding:0 15px 10px;
+    margin:0
+}
+ #tocify ol{
+    padding:0 0 0 15px
+}
+ .rtl #tocify ol{
+    padding:0 15px 0 0
+}
+ #tocify li{
+    font-size:14px;
+    margin:8px 0
+}
+ #tocify li a{
+    color:#f47500
+}
+ #tocify li a:hover{
+    color:#f47500;
+    text-decoration:underline
+}
+ .post-body .contact-form{
+    display:table;
+}
+ .contact-form .widget-title{
+    display:none
+}
+ .contact-form .contact-form-name{
+    width:calc(50% - 5px)
+}
+ .contact-form .contact-form-email{
+    float:right;
+    width:calc(50% - 5px)
+}
+ .post-body pre,pre.code-box{
+    position:relative;
+    display:block;
+    background-color:rgba(155,155,155,0.05);
+    font-family:Monospace;
+    font-size:13px;
+    color:#47474a;
+    white-space:pre-wrap;
+    line-height:1.4em;
+    padding:15px;
+    margin:0;
+    border:1px solid rgba(155,155,155,0.1);
+    border-radius:3px
+}
+ .post-body .google-auto-placed{
+    margin:25px 0
+}
+  #hidden-widgets-wrap,.hidden-widgets{
+    display:none;
+    visibility:hidden
+}
+  @media only screen and (max-width: 680px) {
+.post-body table {
+    display: block;
+}
+  }
+/* 모바일에서만 보이도록 설정 */
+@media screen and (max-width: 768px) {
+/* 모바일 목차 컨테이너 */
+#mobile-toc-container {
+position: relative;
+}
+
+/* 모바일 목차 카드 스타일 - 오른쪽 사이드바 */
+.mobile-toc-card {
+position: fixed;
+top: 0;
+right: -60%;
+width: 60%;
+height: 100vh;
+z-index: 9999;
+background: rgba(255, 255, 255, 0.95);
+backdrop-filter: blur(10px);
+box-shadow: -3px 0 15px rgba(0,0,0,0.2);
+transition: right 0.3s ease;
+overflow-y: auto;
+}
+
+.mobile-toc-card.show {
+right: 0;
+}
+
+/* 배경 오버레이 */
+.mobile-toc-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.3);
+z-index: 9998;
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease;
+}
+
+.mobile-toc-overlay.show {
+opacity: 1;
+visibility: visible;
+}
+
+/* 모바일 목차 스타일 */
+.mobile-custom-toc {
+padding: 25px 20px;
+background: rgba(240, 240, 240, 0.95);
+font-size: 14px;
+height: 100%;
+}
+
+.mobile-toc-header {
+text-align: left;
+font-weight: bold;
+padding: 15px 0;
+border-bottom: 2px solid #DD3333F2;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.mobile-toc-title {
+font-size: 18px;
+color: #333;
+display: flex;
+align-items: center;
+}
+
+.mobile-custom-toc ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.mobile-custom-toc li {
+padding: 15px 10px;
+margin-bottom: 5px;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 6px;
+transition: all 0.3s ease;
+cursor: pointer;
+border-left: 3px solid transparent;
+word-wrap: break-word;
+backdrop-filter: blur(5px);
+}
+
+.mobile-custom-toc li.active {
+background: #DD3333F2;
+color: white;
+font-weight: bold;
+border-left-color: #fff;
+}
+
+.mobile-custom-toc li a {
+color: inherit;
+text-decoration: none;
+display: block;
+width: 100%;
+}
+
+.mobile-custom-toc li:hover {
+background: rgba(255, 255, 255, 1);
+border-left-color: #DD3333F2;
+transform: translateX(-3px);
+}
+
+.mobile-custom-toc li.active:hover {
+background: #DD3333F2;
+}
+
+/* 모바일 토글 버튼 스타일 - 반투명 배경 */
+#mobile-toc-toggle-btn {
+position: fixed;
+right: 20px;
+top: 35%;
+z-index: 9998;
+background: rgba(243, 243, 243, 0.8);
+color: #000;
+border: none;
+border-radius: 10px;
+padding: 10px 15px;
+font-size: 20px;
+cursor: pointer;
+transition: all 0.3s ease;
+opacity: 0;
+pointer-events: none;
+font-weight: bold;
+border: 2px solid rgba(0, 0, 0, 0.6);
+backdrop-filter: blur(5px);
+}
+
+#mobile-toc-toggle-btn:hover {
+transform: scale(1.05);
+background: rgba(243, 243, 243, 0.95);
+border-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 모바일 닫기 버튼 */
+.mobile-close-btn {
+background: none;
+border: none;
+font-size: 20px;
+color: #666;
+cursor: pointer;
+padding: 5px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background 0.2s ease;
+}
+
+.mobile-close-btn:hover {
+background: #f0f0f0;
+}
+}
+
+/* PC에서는 완전히 숨김 */
+@media screen and (min-width: 769px) {
+#mobile-toc-container,
+.mobile-toc-card,
+#mobile-toc-toggle-btn {
+display: none !important;
+}
+}
+/* PC에서만 보이도록 설정 */
+@media screen and (min-width: 769px) {
+/* PC 목차 컨테이너 */
+#pc-toc-container {
+position: relative;
+}
+
+/* PC 목차 카드 스타일 - 왼쪽 사이드바 */
+.pc-toc-card {
+position: fixed;
+top: 0;
+left: -400px;
+width: 400px;
+height: 100vh;
+z-index: 9999;
+background: rgba(255, 255, 255, 0.95);
+backdrop-filter: blur(10px);
+box-shadow: 3px 0 15px rgba(0,0,0,0.2);
+transition: left 0.3s ease;
+overflow-y: auto;
+}
+
+.pc-toc-card.show {
+left: 0;
+}
+
+/* 배경 오버레이 */
+.pc-toc-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.3);
+z-index: 9998;
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease;
+}
+
+.pc-toc-overlay.show {
+opacity: 1;
+visibility: visible;
+}
+
+/* PC 목차 스타일 */
+.pc-custom-toc {
+padding: 30px 25px;
+background: rgba(240, 240, 240, 0.95);
+font-size: 15px;
+height: 100%;
+}
+
+.pc-toc-header {
+text-align: left;
+font-weight: bold;
+padding: 18px 0;
+border-bottom: 2px solid #DD3333F2;
+margin-bottom: 25px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.pc-toc-title {
+font-size: 20px;
+color: #333;
+display: flex;
+align-items: center;
+}
+
+.pc-custom-toc ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.pc-custom-toc li {
+padding: 18px 15px;
+margin-bottom: 8px;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 8px;
+transition: all 0.3s ease;
+cursor: pointer;
+border-left: 4px solid transparent;
+word-wrap: break-word;
+backdrop-filter: blur(5px);
+}
+
+.pc-custom-toc li.active {
+background: #DD3333F2;
+color: white;
+font-weight: bold;
+border-left-color: #fff;
+}
+
+.pc-custom-toc li a {
+color: inherit;
+text-decoration: none;
+display: block;
+width: 100%;
+font-size: 15px;
+}
+
+.pc-custom-toc li:hover {
+background: rgba(255, 255, 255, 1);
+border-left-color: #DD3333F2;
+transform: translateX(5px);
+}
+
+.pc-custom-toc li.active:hover {
+background: #DD3333F2;
+}
+
+/* PC 토글 버튼 스타일 */
+#pc-toc-toggle-btn {
+position: fixed;
+z-index: 9998;
+background: rgba(243, 243, 243, 0.5);
+color: #000;
+border: 2px solid #000;
+border-radius: 12px;
+padding: 12px 18px;
+font-size: 22px;
+cursor: pointer;
+transition: all 0.3s ease;
+opacity: 0;
+pointer-events: none;
+font-weight: bold;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+@media (min-width: 768px) {
+#pc-toc-toggle-btn {
+left: max(5px, (100vw - 900px) / 2 - 55px);
+top: 250px;
+}
+}
+
+@media (min-width: 992px) {
+#pc-toc-toggle-btn {
+left: max(5px, (100vw - 900px) / 2 - 45px);
+top: 250px;
+}
+}
+
+@media (min-width: 1200px) {
+#pc-toc-toggle-btn {
+left: max(210px, (100vw - 1100px) / 2 - 35px);
+top: 250px;
+}
+}
+
+@media (min-width: 1400px) {
+#pc-toc-toggle-btn {
+left: max(225px, (100vw - 1100px) / 2 - 25px);
+top: 250px;
+}
+}
+
+@media (max-width: 767px) {
+#pc-toc-toggle-btn {
+left: 395px;
+width: 40px;
+height: 40px;
+font-size: 18px;
+top: 250px;
+}
+}
+
+@media (max-width: 575px) {
+#pc-toc-toggle-btn {
+left: 370px;
+width: 35px;
+height: 35px;
+font-size: 16px;
+top: 250px;
+}
+}
+
+@media (max-width: 480px) {
+#pc-toc-toggle-btn {
+left: 345px;
+top: 250px;
+}
+}
+
+#pc-toc-toggle-btn:hover {
+transform: scale(1.05);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* PC 닫기 버튼 */
+.pc-close-btn {
+background: none;
+border: none;
+font-size: 24px;
+color: #666;
+cursor: pointer;
+padding: 8px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background 0.2s ease;
+}
+
+.pc-close-btn:hover {
+background: #f0f0f0;
+}
+}
+
+/* 모바일에서는 완전히 숨김 */
+@media screen and (max-width: 768px) {
+#pc-toc-container,
+.pc-toc-card,
+#pc-toc-toggle-btn {
+display: none !important;
+}
+}
+/* 목차 박스 스타일 */
+#post-toc {
+width: 90%;
+background: #f4f4f4;  /* 연한 배경 */
+padding: 15px;
+margin: 20px auto;
+border-radius: 1px; /* 둥근 모서리 */
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 살짝 그림자 */
+}
+
+/* 목차 제목 */
+#post-toc h3 {
+font-size: 18px;
+margin-bottom: 10px;
+color: #000000; /* 검은색 제목 */
+text-align: left;
+font-weight: bold;
+cursor: pointer; /* 클릭 가능한 커서 표시 */
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 0;
+padding-bottom: 10px;
+}
+
+/* 메뉴바 아이콘 추가 */
+#post-toc h3:before {
+content: &quot;\2630&quot;; /* 메뉴바 아이콘 (Unicode) */
+font-size: 18px;
+margin-right: 8px;
+}
+
+/* 화살표 아이콘 추가 */
+#post-toc h3:after {
+content: &quot;\25BC&quot;;
+font-size: 14px;
+margin-left: auto; /* 오른쪽으로 밀어냄 */
+transition: transform 0.3s;
+}
+
+/* 접혔을 때 화살표 방향 변경 */
+#post-toc.collapsed h3:after {
+transform: rotate(-180deg);
+}
+
+/* 목차 콘텐츠 */
+#toc-content {
+max-height: 1000px; /* 충분히 큰 값 */
+overflow: hidden;
+transition: max-height 0.5s ease;
+}
+
+/* 접혔을 때 목차 숨김 */
+#post-toc.collapsed #toc-content {
+max-height: 0;
+}
+
+/* 목차 목록 스타일 */
+#post-toc ul {
+list-style: none;
+padding-left: 0;
+margin-top: 10px;
+}
+
+/* 목차 리스트 스타일 */
+#post-toc li {
+margin-bottom: 5px;
+padding: 5px 10px;
+border-left: 4px solid #666666; /* 왼쪽 테두리 강조 */
+background: #fff;
+transition: all 0.3s ease-in-out;
+}
+
+/* 링크 스타일 */
+#post-toc a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+}
+
+/* 마우스 호버 효과 */
+#post-toc li:hover {
+background: #DCDCDC; /* 연한 그레이 */
+transform: translateX(5px); /* 오른쪽으로 살짝 이동 */
+}
+/* 반응형 코드 추가 */
+@media screen and (max-width: 768px) {
+/* 태블릿 크기 */
+#post-toc {
+width: 95%;
+padding: 12px;
+margin: 15px auto;
+}
+
+#post-toc h3 {
+font-size: 16px;
+}
+
+#post-toc li {
+padding: 4px 8px;
+font-size: 14px;
+}
+}
+@media screen and (max-width: 480px) {
+/* 모바일 크기 */
+#post-toc {
+width: 90%;
+padding: 10px;
+margin: 10px auto;
+border-radius: 0;
+}
+
+#post-toc h3 {
+font-size: 15px;
+}
+
+#post-toc h3:before {
+font-size: 16px;
+margin-right: 6px;
+}
+
+#post-toc h3:after {
+font-size: 12px;
+}
+
+#post-toc li {
+margin-bottom: 3px;
+padding: 3px 6px;
+border-left: 3px solid #666666;
+font-size: 13px;
+}
+
+/* 모바일에서는 호버 효과 축소 */
+#post-toc li:hover {
+transform: translateX(2px);
+}
+}
+
+/* 매우 작은 화면 대응 */
+@media screen and (max-width: 320px) {
+#post-toc {
+padding: 8px;
+}
+
+#post-toc h3 {
+font-size: 14px;
+}
+
+#post-toc li {
+font-size: 12px;
+padding: 2px 4px;
+}
+}
+/* 사이드바 컨테이너 */
+#left-ads-container {
+position: fixed;
+top: 80px;
+width: 160px;
+z-index: 999;
+transition: all 0.3s ease;
+left: calc((100vw - 1200px) / 2 - 320px + 20px);
+}
+
+#right-ads-container {
+position: fixed;
+top: 400px;
+width: 300px;
+z-index: 999;
+transition: all 0.3s ease;
+right: calc((100vw - 1200px) / 2 - 320px + 150px);
+}
+
+/* 글(post) 페이지에서만 표시 */
+.item #left-ads-container {
+display: block;
+position: fixed;
+top: 80px;
+left: calc((100vw - 1200px) / 2 - 320px + 20px);
+width: 160px;
+z-index: 999;
+transition: all 0.3s ease;
+}
+
+/* 왼쪽 사이드바 위치 설정 - 기본값 */
+#left-ads-container {
+left: max(20px, min(270px, (100vw - 900px) / 2 - 20px));
+}
+
+/* 오른쪽 사이드바 위치 설정 - 기본값 */
+#right-ads-container {
+right: max(20px, min(270px, (100vw - 900px) / 2 - 20px));
+}
+
+/* 왼쪽 오른쪽 카드 스타일 */
+.right-ads-box-card {
+width: 300px;
+height: 250px;
+background: rgba(255, 255, 255, 0);
+border-radius: 3px;
+overflow: hidden;
+position: relative;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: all 0.3s ease;
+}
+
+.left-ads-box-card {
+width: 160px;
+height: 600px;
+background: rgba(255, 255, 255, 0);
+border-radius: 3px;
+overflow: hidden;
+position: relative;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: all 0.3s ease;
+}
+
+/* 반응형 디자인 */
+/* 큰 데스크톱 화면 (1400px 이상) */
+@media (min-width: 1401px) {
+#right-ads-container {
+right: calc((100vw - 1200px) / 2 - 320px + 150px);
+width: 300px;
+}
+
+#left-ads-container {
+left: calc((100vw - 1200px) / 2 - 320px + 20px);
+width: 160px;
+}
+
+.right-ads-box-card {
+width: 300px;
+height: 250px;
+}
+
+.left-ads-box-card {
+width: 160px;
+height: 600px;
+}
+}
+
+/* 데스크톱 화면 (1200px - 1400px) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+#right-ads-container {
+right: calc((100vw - 1100px) / 2 - 320px + 150px);
+width: 300px;
+}
+
+#left-ads-container {
+left: calc((100vw - 1100px) / 2 - 320px + 20px);
+width: 160px;
+}
+
+.right-ads-box-card {
+width: 300px;
+height: 250px;
+}
+
+.left-ads-box-card {
+width: 160px;
+height: 600px;
+}
+}
+
+/* 작은 데스크톱 화면 (992px - 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+#right-ads-container {
+right: 20px;
+width: 300px;
+}
+
+#left-ads-container {
+left: 20px;
+width: 160px;
+}
+
+.right-ads-box-card {
+width: 300px;
+height: 250px;
+}
+
+.left-ads-box-card {
+width: 160px;
+height: 600px;
+}
+}
+
+/* 태블릿 화면 (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+#right-ads-container {
+right: 15px;
+width: 300px;
+}
+
+#left-ads-container {
+left: 15px;
+width: 300px;
+}
+
+.right-ads-box-card,
+.left-ads-box-card {
+width: 300px;
+height: 250px;
+}
+}
+
+/* 작은 화면 (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+#right-ads-container {
+position: static;
+width: 100%;
+max-width: 200px;
+margin: 20px auto;
+}
+
+#left-ads-container {
+position: static;
+width: 100%;
+max-width: 200px;
+margin: 20px auto;
+}
+
+.right-ads-box-card,
+.left-ads-box-card {
+width: 100%;
+}
+}
+
+/* 모바일 화면 (575px 이하) */
+@media (max-width: 575px) {
+#right-ads-container {
+position: static;
+width: 100%;
+margin: 20px auto;
+padding: 0 15px;
+box-sizing: border-box;
+}
+
+#left-ads-container {
+position: static;
+width: 100%;
+margin: 20px auto;
+padding: 0 15px;
+box-sizing: border-box;
+}
+
+.right-ads-box-card,
+.left-ads-box-card {
+width: 100%;
+height: auto;
+min-height: 200px;
+}
+}
+
+/* 작은 화면에서는 사이드바를 콘텐츠 아래에 표시 */
+@media (max-width: 1100px) {
+#left-ads-container {
+display: none !important;
+}
+
+#right-ads-container {
+position: static;
+width: 100%;
+max-width: 95%;
+}
+
+.right-ads-box-card,
+.left-ads-box-card {
+margin: 0 auto;
+}
+}
+
+/* 작은 화면에서는 사이드바를 숨김 */
+@media (max-width: 1700px) {
+#left-ads-container {
+display: none !important;
+}
+
+#right-ads-container {
+display: none !important;
+}
+}
+.popup-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+}
+
+.popup-content {
+background: white;
+width: 90%;
+max-width: 350px;
+border-radius: 0;
+text-align: center;
+position: relative;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+overflow: hidden;
+padding: 0;
+}
+
+/* Image container with white space around */
+.popup-image-container {
+padding: 10px 10px 0 10px;
+background: white;
+}
+
+/* Image style with border and rounded corners */
+.popup-image {
+width: 94%;
+display: block;
+border: 1px solid #ddd;
+border-radius: 10px;
+padding: 10px;
+}
+
+/* Button container with separate styling */
+.popup-buttons {
+padding: 10px;
+background: white;
+display: flex;
+gap: 10px;
+}
+
+/* Button style - base */
+.popup-button {
+flex: 1;
+padding: 15px 0;
+text-align: center;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+border-radius: 5px;
+transition: background 0.2s;
+text-decoration: none;
+}
+
+/* Close button */
+.popup-button-close {
+background: #e9e9e9;
+color: #333;
+}
+
+/* Go button */
+.popup-button-go {
+background: rgb(0, 123, 255);
+color: white;
+}
+
+/* Button hover effects */
+.popup-button-close:hover {
+background: #d9d9d9;
+}
+
+.popup-button-go:hover {
+background: #3a80d2;
+}
+/* h2 헤딩 스타일 */
+.post-body h2 {
+margin: 20px -5px 5px;
+font-size: 22px;
+font-weight: 700;
+COLOR: #333333;
+PADDING-BOTTOM: 10px;
+TEXT-ALIGN: left;
+BORDER-LEFT: #333333 10px solid;
+padding: 15px;
+BACKGROUND-COLOR: #fafafa;
+BORDER-BOTTOM: 2px solid #333333;                          /* 텍스트 왼쪽 정렬 */
+}
+
+/* h3 헤딩 스타일 */
+.post-body h3 {
+margin: 20px -5px 5px;
+font-size: 18px;
+font-weight: 700;
+COLOR: #333333;
+PADDING-BOTTOM: 10px;
+TEXT-ALIGN: left;
+padding: 15px;
+BACKGROUND-COLOR: #fafafa;
+BORDER-BOTTOM: 2px solid #333333;                          /* 텍스트 왼쪽 정렬 */
+}
+
+/* h4 헤딩 스타일 */
+.post-body h4 {
+padding: 3px 9px;                             /* 내용 주변 패딩 */
+border-left: 5px solid #eeeeee;               /* 더 연한 색상의 왼쪽 실선 테두리 */
+border-bottom: 1px solid #eeeeee;             /* 더 연한 색상의 하단 실선 테두리 */
+margin-bottom: 15px;                          /* 헤딩 아래 여백 */
+}
+
+/* 단독 DIV 태그 내 링크에만 버튼 스타일 적용 - 이미지 제외 */
+.post-body div:not(p div) > a[href]:not(:has(img)),
+.item-view .post div:not(p div) > a[href]:not(:has(img)),
+.post div:not(p div) > a[href]:not(:has(img)),
+.post-outer div:not(p div) > a[href]:not(:has(img)) {
+display: block !important;
+width: 84% !important;
+max-width: 100% !important;
+margin: 0 auto !important;
+padding: 22px 0 !important;
+font-size: 1.5vw !important;
+cursor: pointer !important;
+text-align: center !important;
+text-decoration: none !important;
+outline: none !important;
+color: #fff !important;
+border: none !important;
+border-radius: 20px !important;
+transition: all 0.5s !important;
+white-space: nowrap !important;
+font-weight: bold !important;
+animation: pulse 2s infinite !important;
+box-sizing: border-box !important;
+
+/* 밑줄 스타일 초기화 */
+background-image: none !important;
+background-size: auto !important;
+background-position: initial !important;
+background-repeat: initial !important;
+}
+
+/* 이미지 링크는 영향 받지 않도록 명시적 스타일 초기화 */
+.post-body a[href]:has(img),
+.item-view .post a[href]:has(img),
+.post a[href]:has(img),
+.post-outer a[href]:has(img) {
+display: inline-block;
+width: auto;
+margin: inherit;
+padding: inherit;
+font-size: inherit;
+color: inherit;
+background-color: transparent;
+text-decoration: none;
+border: none;
+border-radius: 0;
+box-shadow: none;
+animation: none;
+transition: none;
+}
+
+.post-body div:not(p div) > a[href].random-style-1:not(:has(img)),
+.item-view .post div:not(p div) > a[href].random-style-1:not(:has(img)),
+.post div:not(p div) > a[href].random-style-1:not(:has(img)),
+.post-outer div:not(p div) > a[href].random-style-1:not(:has(img)) {
+  background-color: #ce1300 !important;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5) !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+}
+
+.post-body div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.item-view .post div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.post div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.post-outer div:not(p div) > a[href].random-style-1:not(:has(img)):hover {
+  background-color: red !important;
+  transform: scale(1.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* P 태그와 LI 태그 내 링크에 그라데이션 밑줄 스타일 적용 - 이미지 없는 경우만 */
+.post-body p a[href]:not(:has(img)),
+.post-body li a[href]:not(:has(img)),
+.item-view .post p a[href]:not(:has(img)),
+.item-view .post li a[href]:not(:has(img)),
+.post p a[href]:not(:has(img)),
+.post li a[href]:not(:has(img)),
+.post-outer p a[href]:not(:has(img)),
+.post-outer li a[href]:not(:has(img)) {
+background-image: linear-gradient(to right, rgb(169, 188, 245), rgb(46, 100, 254)) !important;
+background-position: 0px 100% !important;
+background-repeat: no-repeat !important;
+background-size: 100% 0.15em !important;
+box-sizing: inherit !important;
+color: #3e5898 !important;
+font-family: "Gowun Dodum", sans-serif !important;
+font-size: 16px !important;
+padding: 1px 0px !important;
+text-decoration-line: none !important;
+transition: all 0.3s ease !important;
+user-select: auto !important;
+word-break: break-all !important;
+position: relative !important;
+
+/* 버튼 스타일 속성 취소 */
+display: inline !important;
+width: auto !important;
+margin: initial !important;
+background-color: transparent !important;
+border: none !important;
+border-radius: 0 !important;
+animation: none !important;
+box-shadow: none !important;
+white-space: normal !important;
+}
+
+/* span 태그 내 색상도 상속받도록 */
+.post-body p a[href]:not(:has(img)) span,
+.post-body li a[href]:not(:has(img)) span,
+.item-view .post p a[href]:not(:has(img)) span,
+.item-view .post li a[href]:not(:has(img)) span,
+.post p a[href]:not(:has(img)) span,
+.post li a[href]:not(:has(img)) span,
+.post-outer p a[href]:not(:has(img)) span,
+.post-outer li a[href]:not(:has(img)) span {
+color: inherit !important;
+}
+
+/* P 태그와 LI 태그 내 링크 호버 효과 - 포스트 페이지에서만 (이미지 없는 경우만) */
+.post-body p a[href]:not(:has(img)):hover,
+.post-body li a[href]:not(:has(img)):hover,
+.item-view .post p a[href]:not(:has(img)):hover,
+.item-view .post li a[href]:not(:has(img)):hover,
+.post p a[href]:not(:has(img)):hover,
+.post li a[href]:not(:has(img)):hover,
+.post-outer p a[href]:not(:has(img)):hover,
+.post-outer li a[href]:not(:has(img)):hover {
+background-size: 100% 100% !important;
+color: white !important;
+background-image: linear-gradient(to right, rgb(46, 100, 254), rgb(116, 159, 251)) !important;
+border-radius: 3px !important;
+padding: 2px 5px !important;
+}
+
+/* 호버 시 span 태그도 흰색으로 */
+.post-body p a[href]:not(:has(img)):hover span,
+.post-body li a[href]:not(:has(img)):hover span,
+.item-view .post p a[href]:not(:has(img)):hover span,
+.item-view .post li a[href]:not(:has(img)):hover span,
+.post p a[href]:not(:has(img)):hover span,
+.post li a[href]:not(:has(img)):hover span,
+.post-outer p a[href]:not(:has(img)):hover span,
+.post-outer li a[href]:not(:has(img)):hover span {
+color: white !important;
+}
+
+/* 애니메이션 효과 */
+@keyframes pulse {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.05);
+}
+100% {
+transform: scale(1);
+}
+}
+
+/* 모바일 반응형 스타일 */
+@media screen and (max-width: 768px) {
+.post-body div:not(p div) > a[href]:not(:has(img)),
+.item-view .post div:not(p div) > a[href]:not(:has(img)),
+.post div:not(p div) > a[href]:not(:has(img)),
+.post-outer div:not(p div) > a[href]:not(:has(img)) {
+width: 90% !important;
+max-width: 92% !important;
+padding: 16px 10px !important;
+font-size: 16px !important;
+border-radius: 15px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+/* 모바일에서 p 태그 여백 조정 */
+.post-body p:has(a[href*="무주택"]), 
+.post-body p:has(a[href*="apt-view.com"]),
+.item-view .post p:has(a[href*="무주택"]), 
+.item-view .post p:has(a[href*="apt-view.com"]),
+.post p:has(a[href*="무주택"]), 
+.post p:has(a[href*="apt-view.com"]),
+.post-outer p:has(a[href*="무주택"]), 
+.post-outer p:has(a[href*="apt-view.com"]) {
+padding: 15px;
+margin-bottom: 15px;
+}
+
+/* 모바일에서 애니메이션 효과 축소 */
+@keyframes pulse {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.02);
+}
+100% {
+transform: scale(1);
+}
+}
+
+/* 모바일에서 호버 효과 조정 */
+.post-body div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.post-body div:not(p div) > a[href].random-style-2:not(:has(img)):hover,
+.item-view .post div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.item-view .post div:not(p div) > a[href].random-style-2:not(:has(img)):hover,
+.post div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.post div:not(p div) > a[href].random-style-2:not(:has(img)):hover,
+.post-outer div:not(p div) > a[href].random-style-1:not(:has(img)):hover,
+.post-outer div:not(p div) > a[href].random-style-2:not(:has(img)):hover {
+transform: scale(1.04) !important;
+}
+
+.post-body div:not(p div) > a[href].random-style-3:not(:has(img)):hover,
+.item-view .post div:not(p div) > a[href].random-style-3:not(:has(img)):hover,
+.post div:not(p div) > a[href].random-style-3:not(:has(img)):hover,
+.post-outer div:not(p div) > a[href].random-style-3:not(:has(img)):hover {
+transform: scale(0.96) !important;
+}
+
+/* 모바일에서 p 태그 내 링크 폰트 크기 조정 */
+.post-body p a[href]:not(:has(img)),
+.item-view .post p a[href]:not(:has(img)),
+.post p a[href]:not(:has(img)),
+.post-outer p a[href]:not(:has(img)) {
+font-size: 14px !important;
+}
+}
+
+/* 작은 모바일 화면 대응 */ 
+@media screen and (max-width: 480px) {
+.post-body div:not(p div) > a[href]:not(:has(img)),
+.item-view .post div:not(p div) > a[href]:not(:has(img)),
+.post div:not(p div) > a[href]:not(:has(img)),
+.post-outer div:not(p div) > a[href]:not(:has(img)) {
+width: 88% !important;
+max-width: 90% !important;
+padding: 14px 8px !important;
+font-size: 14px !important;
+border-radius: 12px !important;
+}
+
+/* 그림자 효과 축소 */
+.post-body div:not(p div) > a[href].random-style-1:not(:has(img)),
+.post-body div:not(p div) > a[href].random-style-2:not(:has(img)),
+.post-body div:not(p div) > a[href].random-style-3:not(:has(img)),
+.item-view .post div:not(p div) > a[href].random-style-1:not(:has(img)),
+.item-view .post div:not(p div) > a[href].random-style-2:not(:has(img)),
+.item-view .post div:not(p div) > a[href].random-style-3:not(:has(img)),
+.post div:not(p div) > a[href].random-style-1:not(:has(img)),
+.post div:not(p div) > a[href].random-style-2:not(:has(img)),
+.post div:not(p div) > a[href].random-style-3:not(:has(img)),
+.post-outer div:not(p div) > a[href].random-style-1:not(:has(img)),
+.post-outer div:not(p div) > a[href].random-style-2:not(:has(img)),
+.post-outer div:not(p div) > a[href].random-style-3:not(:has(img)) {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 작은 화면에서 p 태그 안 링크 폰트 크기 조정 */
+.post-body p a[href]:not(:has(img)),
+.item-view .post p a[href]:not(:has(img)),
+.post p a[href]:not(:has(img)),
+.post-outer p a[href]:not(:has(img)) {
+font-size: 13px !important;
+}
+
+/* 작은 화면에서 p 태그 패딩 축소 */
+.post-body p:has(a[href*="무주택"]), 
+.post-body p:has(a[href*="apt-view.com"]),
+.item-view .post p:has(a[href*="무주택"]), 
+.item-view .post p:has(a[href*="apt-view.com"]),
+.post p:has(a[href*="무주택"]), 
+.post p:has(a[href*="apt-view.com"]),
+.post-outer p:has(a[href*="무주택"]), 
+.post-outer p:has(a[href*="apt-view.com"]) {
+padding: 12px;
+margin-bottom: 12px;
+}
+}
+
+/* 버튼 컨테이너 스타일 */
+.post-body .button-container,
+.item-view .post .button-container,
+.post .button-container,
+.post-outer .button-container {
+width: 100%;
+padding: 0 10px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+}
+
+/* 🔹 목차 스타일 유지 */
+#post-toc {
+width: 90%;
+background: #f4f4f4;  /* 연한 배경 */
+border: 2px solid #1F2024; /* 회색 테두리 */
+padding: 15px;
+margin: 20px auto;
+border-radius: 1px; /* 둥근 모서리 */
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 살짝 그림자 */
+}
+
+/* 목차 제목 */
+#post-toc h3 {
+font-size: 18px;
+margin-bottom: 10px;
+color: #000000; /* 검은색 제목 */
+text-align: center;
+font-weight: bold;
+cursor: pointer; /* 클릭 가능한 커서 표시 */
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding-bottom: 10px;
+}
+
+/* 화살표 아이콘 추가 */
+#post-toc h3:after {
+content: &quot;\25BC&quot;;
+font-size: 14px;
+margin-left: 8px;
+transition: transform 0.3s;
+}
+
+/* 접혔을 때 화살표 방향 변경 */
+#post-toc.collapsed h3:after {
+transform: rotate(-180deg);
+}
+
+/* 목차 콘텐츠 */
+#toc-content {
+max-height: 1000px; /* 충분히 큰 값 */
+overflow: hidden;
+transition: max-height 0.5s ease;
+}
+
+/* 접혔을 때 목차 숨김 */
+#post-toc.collapsed #toc-content {
+max-height: 0;
+}
+
+/* 목차 목록 스타일 */
+#post-toc ul {
+list-style: none;
+padding-left: 0;
+margin-top: 10px;
+}
+
+/* 목차 리스트 스타일 */
+#post-toc li {
+margin-bottom: 5px;
+padding: 5px 10px;
+border-left: 4px solid #666666; /* 왼쪽 테두리 강조 */
+background: #fff;
+transition: all 0.3s ease-in-out;
+}
+
+/* 링크 스타일 */
+#post-toc a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+}
+
+/* 마우스 호버 효과 */
+#post-toc li:hover {
+background: #DCDCDC; /* 연한 그레이 */
+transform: translateX(5px); /* 오른쪽으로 살짝 이동 */
+}
+
+/* 🔹 반응형 스타일 */
+
+/* 태블릿 (768px 이하) */
+@media (max-width: 768px) {
+.post-body a:not(:has(img)):not(#tocid a):not(#tocify a):not(.tocify-wrap a) {
+width: 100%;             /* 버튼 너비 조정 */
+font-size: 16px;          /* 글자 크기 약간 줄임 */
+padding: 12px 0;          /* 버튼 높이 조정 */
+}
+}
+
+/* 모바일 (480px 이하) */
+@media (max-width: 480px) {
+.post-body a:not(:has(img)):not(#tocid a):not(#tocify a):not(.tocify-wrap a) {
+width: 100%;            /* 더 좁은 화면에 맞춤 */
+font-size: 14px;          /* 글자 크기 조정 */
+padding: 10px 0;          /* 높이 줄임 */
+border-radius: 6px;       /* 모서리 둥글기 조정 */
+}
+}
+.floating-banner {
+position: fixed;
+bottom: 10px;
+left: 90%;
+transform: translateX(-50%);
+width: 250px;
+background: #6a5acd;
+color: white;
+border-radius: 10px;
+text-align: center;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+font-weight: bold;
+z-index: 9999;
+overflow: hidden;
+}
+
+.floating-banner-top img {
+width: 95%;
+display: flex;
+border-radius: 10px 10px 0 0;
+margin: 6px auto;
+justify-content: center;
+}
+
+.floating-banner-bottom {
+padding: 12px;
+font-size: 14px;
+background: #3D0066;
+cursor: pointer;
+}
+
+.floating-banner-bottom a {
+text-decoration: none;
+color: white;
+display: block;
+}
+
+.floating-banner-bottom:hover {
+background: #3a2b9d;
+}
+
+.floating-close-btn {
+position: absolute;
+top: 8px;
+right: 12px;
+background: none;
+font-size: 20px;
+cursor: pointer;
+z-index: 10000;
+}
+
+@media screen and (max-width: 600px) {
+.floating-banner {
+width: 200px;
+left: 70%;
+}
+.floating-banner-bottom {
+font-size: 13px;
+padding: 10px;
+}
+}
+#latest-posts-section {
+margin: 30px 0;
+}
+
+#latest-posts-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 16px;
+margin-top: 10px;
+}
+
+.latest-post-item {
+border: 1px solid #ddd;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+background-color: #fff;
+height: 100%; /* 항목의 높이를 균일하게 */
+display: flex;
+flex-direction: column;
+}
+
+.latest-post-item:hover {
+transform: translateY(-4px);
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.latest-post-item .image-container {
+width: 100%;
+padding-top: 66.67%; /* 3:2 비율 (가로:세로) */
+position: relative;
+overflow: hidden;
+}
+
+.latest-post-item img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.3s ease;
+}
+
+.latest-post-item:hover img {
+transform: scale(1.05);
+}
+
+.latest-post-item p {
+padding: 12px;
+margin: 0;
+font-size: 14px;
+color: #333;
+font-weight: bold;
+flex-grow: 1; /* 남은 공간 채우기 */
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 1.4;
+}
+
+.latest-post-item a {
+text-decoration: none;
+color: inherit;
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+/* 태블릿 반응형 */
+@media screen and (max-width: 768px) {
+#latest-posts-grid {
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 12px;
+}
+
+.latest-post-item p {
+font-size: 13px;
+padding: 10px;
+}
+}
+
+/* 모바일 반응형 */
+@media screen and (max-width: 480px) {
+#latest-posts-grid {
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 10px;
+}
+
+.latest-post-item {
+border-radius: 6px;
+}
+
+.latest-post-item .image-container {
+padding-top: 75%; /* 4:3 비율로 조정 (모바일에서 더 정사각형에 가깝게) */
+}
+
+.latest-post-item p {
+padding: 8px;
+font-size: 12px;
+-webkit-line-clamp: 2; /* 2줄로 제한 */
+}
+}
+
+/* 아주 작은 화면 대응 */
+@media screen and (max-width: 320px) {
+#latest-posts-grid {
+grid-template-columns: repeat(2, 1fr); /* 강제로 2열만 표시 */
+gap: 8px;
+}
+
+.latest-post-item .image-container {
+padding-top: 75%; /* 비율 유지 */
+}
+
+.latest-post-item p {
+font-size: 11px;
+padding: 6px;
+}
+}
+.share-buttons-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+padding: 15px 0;
+margin: 20px 0;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #eee;
+width: 100%;
+}
+
+.share-button {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+background: #f5f5f5;
+border: none;
+cursor: pointer;
+font-size: 15px;
+color: #fff;
+padding: 15px 0;
+border-radius: 4px;
+transition: all 0.2s ease;
+font-weight: 500;
+width: 100%;
+}
+
+.share-button:hover {
+opacity: 0.9;
+}
+
+.share-link {
+background-color: #3498db;
+}
+
+.share-common {
+background-color: #e74c3c;
+}
+
