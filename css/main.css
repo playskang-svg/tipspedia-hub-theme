@@ -179,6 +179,12 @@ body.is-single-post .date-header { display: block !important; font-size: 0.82rem
 .columns-inner, .column-center-outer, .column-center-inner, .main.section, #main {
   float: none !important; width: 100% !important; max-width: 100% !important;
 }
+/* Blogger's fauxcolumns trick reserves the old sidebar's width via padding-right on the
+   shared wrapper even after the sidebar is display:none'd - this was eating ~310px of
+   content width on every screen size (catastrophic on mobile). Clear it explicitly. */
+.columns.fauxcolumns, .fauxcolumn-center-outer, .fauxcolumn-right-outer, .fauxcolumn-left-outer {
+  padding: 0 !important; margin: 0 !important;
+}
 .content-outer, #main-wrapper, .main-outer { max-width: var(--max) !important; margin: 0 auto !important; padding: 0 40px !important; box-sizing: border-box !important; }
 .hero, .site-header .bar, .site-footer .footer-grid, .site-footer .footer-bottom { padding-left: 0; padding-right: 0; }
 
@@ -202,14 +208,34 @@ body.is-single-post .date-header { display: block !important; font-size: 0.82rem
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 640px) {
-  .cat-grid { grid-template-columns: repeat(2, 1fr); }
-  .site-header .bar { padding: 14px 20px; }
-  .main-nav { gap: 4px 12px; font-size: 0.85rem; }
-  .hero-inner { padding: 30px 20px; margin-bottom: -60px; gap: 22px; }
-  .landing-cta { padding: 20px; }
+  .wrap { padding: 0 18px; }
+  .content-outer, .main-outer { padding: 0 18px !important; }
+  .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .site-header .bar { padding: 14px 18px; gap: 10px; }
+  .brand { font-size: 1.1rem; }
+  .main-nav { gap: 4px 10px; font-size: 0.82rem; }
+  .main-nav a.featured { padding: 5px 10px; }
+  .hero { padding: 20px 0 0; }
+  .hero-inner { padding: 26px 18px; margin-bottom: -60px; gap: 18px; border-radius: 8px; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero p { font-size: 0.88rem; }
+  .landing-cta { padding: 18px; }
   .cat-grid { margin-top: 84px; }
-  .post-outer { grid-template-columns: 40px 1fr; grid-template-areas: "chip label" "chip title" "chip excerpt" "chip meta"; }
+  .cat-card { padding: 14px 12px; }
+  .cat-card h3 { font-size: 0.95rem; }
+  .cat-card p { font-size: 0.78rem; }
+  .section-head { margin: 34px 0 16px; }
+  .post-outer { grid-template-columns: 40px 1fr; grid-template-areas: "chip label" "chip title" "chip excerpt" "chip meta"; gap: 10px 12px; }
   .post-outer::before { width: 40px; height: 40px; }
+  .post-title { font-size: 0.98rem; }
+  .post-body { font-size: 0.84rem !important; }
   .post-footer-line-1 { align-items: flex-start !important; }
-  .footer-grid { grid-template-columns: 1fr; padding: 34px 0 20px; }
+  .footer-grid { grid-template-columns: 1fr; padding: 34px 0 20px; gap: 24px; }
+  body.is-single-post .post-title { font-size: 1.4rem !important; }
+  body.is-single-post .post-body { font-size: 0.95rem !important; }
+}
+@media (max-width: 420px) {
+  .brand .tagline { display: none; }
+  .main-nav a.featured { display: none; }
+  .hero h1 { font-size: 1.32rem; }
 }
